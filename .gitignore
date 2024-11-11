@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Entorno virtual
+venv/
+env/
+myenv/
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de Django
+*.pot
+*.pyc
+*.pyo
+*.swp
+
+# Archivos de compilación
+build/
+dist/
+
+# Archivos generados por pytest
+.cache/
+
+# Archivos de cobertura de código (si usas cobertura)
+.coverage
+
+# Archivos de dependencias
+Pipfile.lock
